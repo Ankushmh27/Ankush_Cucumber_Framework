@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Tests using chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.hotelcrm.Runner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.hotelcrm.Runner.TestRunner -->
+    </classes>
+  </test> <!-- Tests using chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

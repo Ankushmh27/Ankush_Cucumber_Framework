@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	 <test name="Tests using chrome" parallel="classes">
+     <parameter name="browser" value="chrome"  />
+		<classes>
+			<class name="com.hotelcrm.Runner.TestRunner" />
+		</classes>
+	</test>
+</suite> 

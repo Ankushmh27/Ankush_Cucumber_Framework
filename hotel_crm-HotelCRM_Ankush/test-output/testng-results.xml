@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-19T11:56:47 IST" name="Default suite" finished-at="2023-10-19T11:57:10 IST" duration-ms="22783">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hotelcrm.Runner.TestRunner@28dcca0c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-10-19T11:56:47 IST" name="Default test" finished-at="2023-10-19T11:57:10 IST" duration-ms="22783">
+      <class name="com.hotelcrm.Runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.hotelcrm.Runner.TestRunner@28dcca0c]" started-at="2023-10-19T11:56:47 IST" name="setUpClass" finished-at="2023-10-19T11:56:48 IST" duration-ms="503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@470b5213]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hotelcrm.Runner.TestRunner@28dcca0c]" started-at="2023-10-19T11:56:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-19T11:56:59 IST" duration-ms="11014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the Hotel CRM login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Hotel CRM Login Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hotelcrm.Runner.TestRunner@28dcca0c]" started-at="2023-10-19T11:56:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-19T11:57:07 IST" duration-ms="8195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the Hotel CRM login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Hotel CRM Login Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.hotelcrm.Runner.TestRunner@28dcca0c]" started-at="2023-10-19T11:57:07 IST" name="tearDownClass" finished-at="2023-10-19T11:57:10 IST" duration-ms="3039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.hotelcrm.Runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
